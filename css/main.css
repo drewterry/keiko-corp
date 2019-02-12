@@ -1,6 +1,7 @@
 /*		Fonts		*/
 @font-face {
-    font-family: 'open_regular';
+		font-family: 'open_regular';
+		font-display: fallback;
     src: url('../fonts/opensans-regular.eot');
     src: url('../fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
          url('../fonts/opensans-regular.woff') format('woff'),
@@ -13,7 +14,8 @@
 
 
 @font-face {
-    font-family: 'open_bold';
+		font-family: 'open_bold';
+		font-display: fallback;
     src: url('../fonts/opensans-bold.eot');
     src: url('../fonts/opensans-bold.eot?#iefix') format('embedded-opentype'),
          url('../fonts/opensans-bold.woff') format('woff'),
@@ -26,7 +28,8 @@
 
 
 @font-face {
-    font-family: 'open_semibold';
+		font-family: 'open_semibold';
+		font-display: fallback;
     src: url('../fonts/opensans-semibold.eot');
     src: url('../fonts/opensans-semibold.eot?#iefix') format('embedded-opentype'),
          url('../fonts/opensans-semibold.woff') format('woff'),
